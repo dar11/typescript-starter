@@ -12,7 +12,7 @@ let daniel: Person = {firstName: "Daniel", lastName: "Arnsberger"};
 greetMe(daniel);
 
 class Student {
-  private firstName: string;
+  public firstName: string;
   private lastName: string;
 
   constructor(firstName: string, lastName: string) {
