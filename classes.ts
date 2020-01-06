@@ -1,6 +1,7 @@
 interface Person {
   firstName: string;
   lastName: string;
+  age?: number;
 }
 
 function greetMe(student: Person) {
